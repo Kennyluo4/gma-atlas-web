@@ -21,7 +21,7 @@ author: Schmitz lab at UGA
 
 navbar-links:
   About: "aboutme"
-  Resources:
+  Tools:
     - Atlas Viewer: "https://gma-atlas-website-n8bc6xbjujlgnnsbg6fczc.streamlit.app/"
     - Atlas Browser: "https://epigenome.genetics.uga.edu/PlantEpigenome/?data=Glycine_max_v4"
 
@@ -31,7 +31,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/plant_logo.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
