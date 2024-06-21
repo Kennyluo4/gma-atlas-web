@@ -22,8 +22,8 @@ author: Schmitz lab at UGA
 navbar-links:
   About: "aboutme"
   Resources:
-    - Atlas Viewer: "https://beautifuljekyll.com"
-    - Atlas Browser: "https://www.markdowntutorial.com/"
+    - Atlas Viewer: "https://gma-atlas-website-n8bc6xbjujlgnnsbg6fczc.streamlit.app/"
+    - Atlas Browser: "https://epigenome.genetics.uga.edu/PlantEpigenome/?data=Glycine_max_v4"
 
 ################
 # --- Logo --- #
