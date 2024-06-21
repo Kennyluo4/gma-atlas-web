@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the databse
+subtitle: About the databse
 ---
 
 Welcome to the Soybean Single Cell Spatial Omics Atlas Database, your go-to resource for comprehensive and detailed insights into the soybean genome through advanced single cell and spatial omics technologies.
