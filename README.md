@@ -1,4 +1,5 @@
-# Read me
+# A website for hosting soybean atlas database
 
-Website for soybean atlas: [https://kennyluo4.github.io/gma-atlas-web](https://kennyluo4.github.io/gma-atlas-web)
+[A spatially resolved multiomic single-cell atlas of soybean development](https://schmitzlab.uga.edu/) by Zhang et al., 2024, BioRxiv
+Website for soybean atlas: [soybean-atlas.com](soybean-atlas.com)
 
