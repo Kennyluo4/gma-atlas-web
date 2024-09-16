@@ -1,9 +1,9 @@
 ---
 layout: page
-subtitle: FAQs
+subtitle:
 ---
 
-## Frequently Asked Questions (FAQs)
+## FAQs
 
 ### •	What is the Soybean Multi-Omic Atlas Database?
 
@@ -12,20 +12,21 @@ The Soybean Multi-Omic Atlas is a comprehensive, spatially resolved, multi-omic 
 ### •	What types of data are available on the Soybean Multi-Omic Atlas Database?
 
 The database offers a variety of omics data from different tissues, including:
-(1)	snRNA-seq data: This data provides single-cell resolution gene expression profiles from different tissues and developmental stages. 
+*	snRNA-seq data: This data provides single-cell resolution gene expression profiles from different tissues and developmental stages. 
 In Atlas Viewer, select the ‘snRNA-seq’ data type to explore the expression of all genes in single cells, or select the ‘scATAC-seq’ data type and ‘motif associated TF expression’ to explore the expression of motif associated TFs; 
 In Atlas Browser, select the tracks in the ‘Gm_atlas_snRNA_cellstate’ group to view the RNA peaks in different cell types.
 
-(2)	scATAC-seq data: This data provides information about chromatin accessibility and enriched TF binding motifs at single-cell resolution.
+*	scATAC-seq data: This data provides information about chromatin accessibility and enriched TF binding motifs at single-cell resolution.
 In Atlas Viewer, select the ‘scATAC-seq’ data type and ‘motif deviation’ to explore enriched binding motif in single cells. 
 In Atlas Browser, select the tracks in the ‘Gm_atlas_scatac_cellstate’ group to view the chromatin accessibility peaks in different cell types; select the tracks in ‘Gm_atlas_ctACR_motif’ to view the location of enriched TF binding motifs in different cell types. 
 
-(3)	spRNA-seq data: This data provides the spatial gene expression on different soybean tissue sections. 
+*	spRNA-seq data: This data provides the spatial gene expression on different soybean tissue sections. 
 In Atlas Viewer, select the ‘spRNA-seq’ data type to explore the spatial expression of all genes. 
 
 ### •	What can I do with the Viewer and Browser? what’s the difference?
-The Atlas Viewer: The Viewer is a Streamlit-based application designed to visually explore gene expression (snRNA-seq) and chromatin accessibility (scATAC-seq) data at single-cell resolution. It uses a UMAP (Uniform Manifold Approximation and Projection) to display single cells and their gene expression profiles, allowing you to view chromatin accessibility and TF motif data as well. Additionally, the Viewer includes spatial transcriptomics data, letting you plot gene expression on both UMAP and spatial dimensional plots, providing insights into spatial gene expression patterns.
-The Atlas Browser: The Browser is a JBrowse instance that allows you to explore tracks derived from snRNA-seq and scATAC-seq data in a more traditional genome browser format. It includes cell-type-specific gene expression and chromatin accessibility tracks, along with motif location tracks, enabling detailed investigation of regulatory elements and gene expression patterns within specific regions of the genome.
+* The Atlas Viewer: The Viewer is a Streamlit-based application designed to visually explore gene expression (snRNA-seq) and chromatin accessibility (scATAC-seq) data at single-cell resolution. It uses a UMAP (Uniform Manifold Approximation and Projection) to display single cells and their gene expression profiles, allowing you to view chromatin accessibility and TF motif data as well. Additionally, the Viewer includes spatial transcriptomics data, letting you plot gene expression on both UMAP and spatial dimensional plots, providing insights into spatial gene expression patterns.
+
+* The Atlas Browser: The Browser is a JBrowse instance that allows you to explore tracks derived from snRNA-seq and scATAC-seq data in a more traditional genome browser format. It includes cell-type-specific gene expression and chromatin accessibility tracks, along with motif location tracks, enabling detailed investigation of regulatory elements and gene expression patterns within specific regions of the genome.
 
 ### •	How do I explore the gene regulatory network of my favorite genes in the database? 
 
