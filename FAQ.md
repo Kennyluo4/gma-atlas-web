@@ -32,6 +32,11 @@ In Atlas Viewer, select the ‘spRNA-seq’ data type to explore the spatial exp
 
 With the Atlas Browser, you can find your genes by entering the gene ID in the location and search box. Identify the potential regulatory regions (e.g. ACRs in the promoters or introns) associated with your target gene. Under the potential regulatory regions, identify the TF binding motifs enriched in expected cell types (tracks). With the Atlas Viewer, you are able to visualize the gene expression (in snRNA-seq data) and binding motif accessibility (in scATAC-seq data) of candidate TFs in the single-cell data.  
 
+![Viewer demo](assets/img/Gm_atlas_website_viewer.png)
+
+
+![Browser demo](assets/img/Gm_atlas_website_browser.png)
+
 A specific example of GmLEC1a/b regulation network can be demonstrated using our database (Figure S12): 1) Two ACRs were identified in the first intron of the paralogs, which were specifically accessible in endosperm and embryo cells; 2) These ACRs captured two motifs consistently enriched in endosperm or embryo cells at three stages of developing seeds: the GmABI3A (ABA INSENSITIVE3a) motif, which controls embryo development and directly binds GmLEC1, and the MYB118 motif, which is specifically expressed in endosperm and control endosperm maturation in Arabidopsis; 3) GmABI3a and its TF motif was mainly expressed and accessible in embryo cells in cotyledon stage seeds, while GmMYB118a/b and their TF motif were mainly expressed and accessible in endosperm. Thus, we can propose a model where the specific use of the intronic MYB118 and ABI3 motifs contributes to the expression pattern of GmLEC1a/b 
 
 
