@@ -23,7 +23,7 @@ navbar-links:
   About: "aboutme"
   FAQs: "FAQ"
   Tools:
-    - Atlas Viewer: "http://18.117.223.102:8501"    #https://gma-atlas-viewer.streamlit.app/
+    - Atlas Viewer: "http://3.132.174.121:8501"    #https://gma-atlas-viewer.streamlit.app/
     - Atlas Browser: "https://epigenome.genetics.uga.edu/PlantEpigenome/?data=Glycine_max_v4"
 
 ################
